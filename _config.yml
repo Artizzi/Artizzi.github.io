@@ -10,3 +10,6 @@ social:
   links:
     - https://github.com/Artizzi
     - https://www.twitch.tv/artizzi_k
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-include

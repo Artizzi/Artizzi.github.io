@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{{ '' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/artizzi.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    {% seo %}
+  </head>
+
+  <body>
+    <div class="container markdown-body">
+
+      {% include breadcrumbs.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+
+    </div>
+  </body>
+</html>
